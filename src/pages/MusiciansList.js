@@ -71,7 +71,7 @@ const MusiciansList = () => {
       </div>
       <div className="text-center mb-6">
         <a href="/" className="text-blue-500 hover:underline">
-          Available Bands!!!
+          Available Bands
         </a>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
