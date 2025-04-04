@@ -7,7 +7,7 @@ services:
       - key: NODE_ENV
         value: production
       - key: REACT_APP_API_URL
-        value: https://waro-be.onrender.com
+        value: https://waro-be-main.onrender.com
       - key: HOST
         value: 0.0.0.0
       - key: PORT
