@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: waro-fe
+    env: docker
+    image: repairbrain/waro-fe:main
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: REACT_APP_API_URL
+        value: https://waro-be.onrender.com
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: 3000
+    healthCheckPath: /
+    autoDeploy: true 
